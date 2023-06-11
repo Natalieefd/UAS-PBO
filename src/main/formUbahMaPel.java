@@ -55,6 +55,7 @@ public class formUbahMaPel extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
 
         gradientPanel1.setPreferredSize(new java.awt.Dimension(800, 500));
 
@@ -236,6 +237,7 @@ public class formUbahMaPel extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     public void cleartxt(){
